@@ -63,7 +63,7 @@ LawMatch/
 - `lora_adapter2.0`：基于 `train2.0` 微调后得到的 LoRA adapter 权重
 
 > ✅ 获取方式：
-1. 基础模型下载：[DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai)（下载后放入 `models/DeepSeek-R1-Distill-Qwen-1.5B/`）
+1. 基础模型下载：[DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)（下载后放入 `models/DeepSeek-R1-Distill-Qwen-1.5B/`）
 2. LoRA adapter 可通过运行训练脚本生成，或联系作者获取已训练模型文件。
 
 ---
@@ -125,7 +125,7 @@ python evaluation/by_charge.py         # 按罪名类别
 ---
 
 ## 🧠 模型来源
-- 基础模型：[DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/deepseek-llm)
+- 基础模型：[DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)
 - LoRA 微调方案：使用 peft + transformers
 
 ---
